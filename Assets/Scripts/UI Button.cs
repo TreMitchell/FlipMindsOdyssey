@@ -6,7 +6,7 @@ public class UIButton : MonoBehaviour
 {
     [SerializeField] GameObject targetObject;
     [SerializeField] string targetMessage;
-    public Color highlightColor = Color.cyan;
+    public Color highlightColor = Color.yellow;
 
     private void OnMouseEnter()
     {

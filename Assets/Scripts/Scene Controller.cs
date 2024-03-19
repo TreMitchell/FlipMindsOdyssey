@@ -108,6 +108,6 @@ public class SceneController : MonoBehaviour
     }
     public void Restart()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Restart");
     }
 }
