@@ -50,8 +50,12 @@ public class SceneController : MonoBehaviour
         if (firstRevealed.Id == secondRevealed.Id)
         {
             score++;
-            //Debug.Log($"Score: {score}");
+            Debug.Log($"Score: {score}");
             scoreLabel.text = $"Score: {score}";
+            
+            if (score == 10) {
+                Debug.Log("Congratulations!  You won!");
+            }
         }
         else
         {
@@ -72,9 +76,20 @@ public class SceneController : MonoBehaviour
 
         Vector3 startPos = originalCard.transform.position;
 
-        int[] numbers = { 0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9 };
+        int[] numbers = { 0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9};
+        
+        //Trying to get 10 pairs out of a deck of 52 cards
+        // int[] numbers= new int[gridRows * gridColumns];
+        // for (int i = 0; i < 10; i++){
+        //     numbers[i * 2] = i;
+        //     numbers[i * 2 + 1] = i;
+        // }
+
+        //Shuffle the numbers array
         numbers = ShuffleArray(numbers);
 
+        
+        //instantiate & position 20 cards
         for (int i = 0; i < gridColumns; i++)
         {
             for (int j = 0; j < gridRows; j++)
@@ -93,8 +108,6 @@ public class SceneController : MonoBehaviour
                 int index = j * gridColumns + i;
                 int id = numbers[index];
                 card.SetCard(id, images[id]);
-                //int id = Random.Range(0, images.Length);
-                //card.SetCard(id, images[id]);
 
                 float posX = (offsetX * i) + startPos.x;
                 float posY = -(offsetY * j) + startPos.y;
@@ -102,6 +115,7 @@ public class SceneController : MonoBehaviour
             }
         }
     }
+
 
     private int[] ShuffleArray(int[] numbers)
     {
