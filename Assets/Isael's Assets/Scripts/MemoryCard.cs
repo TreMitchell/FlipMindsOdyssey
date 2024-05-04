@@ -6,11 +6,26 @@ public class MemoryCard : MonoBehaviour
 {
     [SerializeField] GameObject cardBack;
     [SerializeField] SceneController controller;
+    [SerializeField] AudioClip clickSound; // New audio clip field
 
     private int _id;
     public int Id
     {
         get { return _id; }
+    }
+
+    private AudioSource audioSource; // New AudioSource component
+
+    void Start()
+    {
+        // Add an AudioSource component if not already attached
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
+        // Set the audio clip for the AudioSource
+        audioSource.clip = clickSound;
     }
 
     public void SetCard(int id, Sprite image)
@@ -33,3 +48,4 @@ public class MemoryCard : MonoBehaviour
         cardBack.SetActive(true);
     }
 }
+

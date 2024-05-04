@@ -26,6 +26,7 @@ public class SceneController : MonoBehaviour
         get { return secondRevealed == null; }
     }
 
+
     void Start()
     {
         Vector3 startPos = originalCard.transform.position;
@@ -118,11 +119,37 @@ public class SceneController : MonoBehaviour
     void LoadNextScene()
     {
         // Load the next scene (assuming the next scene is named "NextScene")
-        SceneManager.LoadScene("Level02");
+        SceneManager.LoadScene("AnimalCrossing");
     }
 
     public void Restart()
     {
         SceneManager.LoadScene("Isael");
     }
+
+    //public void Restart()
+    //{
+    //    // Restart the current scene
+    //    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    //}
+
+    //public void LoadNextScene()
+    //{
+    //    // Load the next scene
+    //    int currentIndex = SceneManager.GetActiveScene().buildIndex;
+    //    SceneManager.LoadScene(currentIndex + 1);
+    //}
+
+    //public void GoBackScene()
+    //{
+    //    // Go back to the previous scene
+    //    int currentIndex = SceneManager.GetActiveScene().buildIndex;
+    //    SceneManager.LoadScene(currentIndex - 1);
+    //}
+
 }
+
+
+
+
+
