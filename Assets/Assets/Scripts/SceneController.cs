@@ -12,11 +12,15 @@ public class SceneController : MonoBehaviour
     public float offsetY = 2.5f;
 
     private int score = 0;
+    private int miss = 0;
 
     private MemoryCard firstRevealed;
     private MemoryCard secondRevealed;
 
+    //private MemoryCard thirdRevealed;
+
     [SerializeField] TMP_Text scoreLabel;
+    [SerializeField] TMP_Text missLabel;
 
     [SerializeField] MemoryCard originalCard;
     [SerializeField] Sprite[] images;
@@ -35,7 +39,8 @@ public class SceneController : MonoBehaviour
         else
         {
             secondRevealed = card;
-            //Debug.Log("Match? " + (firstRevealed.Id == secondRevealed.Id));
+            Debug.Log("Match?: " + (firstRevealed.Id == secondRevealed.Id));
+            
             StartCoroutine(CheckMatch());
         }
     }
@@ -55,35 +60,31 @@ public class SceneController : MonoBehaviour
             
             if (score == 10) {
                 Debug.Log("Congratulations!  You won!");
+                Debug.Log("Results: "+ $"Score: {score}" + $" Miss: {miss}" + $" Total Attempts: {score + miss}");
             }
         }
         else
         {
+            miss++;
+            Debug.Log($"Miss: {miss}");
+            missLabel.text =  $"Miss: {miss}";
             yield return new WaitForSeconds(0.5f);
             firstRevealed.Unreveal();
             secondRevealed.Unreveal();
+            //thirdRevealed.Unreveal();
         }
 
         firstRevealed = null;
         secondRevealed = null;
+        //thirdRevealed = null;
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        //int id = Random.Range(0, images.Length);
-        //originalCard.SetCard(id, images[id]);
-
         Vector3 startPos = originalCard.transform.position;
 
         int[] numbers = { 0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9};
-        
-        //Trying to get 10 pairs out of a deck of 52 cards
-        // int[] numbers= new int[gridRows * gridColumns];
-        // for (int i = 0; i < 10; i++){
-        //     numbers[i * 2] = i;
-        //     numbers[i * 2 + 1] = i;
-        // }
 
         //Shuffle the numbers array
         numbers = ShuffleArray(numbers);
