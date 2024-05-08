@@ -317,4 +317,9 @@ public class SceneController : MonoBehaviour
     {
         SceneManager.LoadScene(restartSceneName);
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }

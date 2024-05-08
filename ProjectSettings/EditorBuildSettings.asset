@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Isael02.unity
     guid: 84a1550d839e862449673e9cc40636f3
+  - enabled: 1
+    path: Assets/Scenes/Victory.unity
+    guid: 6d590eab81620ef46898ff8a94e34358
   m_configObjects: {}
