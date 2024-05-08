@@ -407,6 +407,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: cedc3ba2d0371154bbd9557fd2487f29, type: 3}
   gameCompletionUI: {fileID: 0}
   gameCompletionText: {fileID: 0}
+  nextSceneName: Mathew
+  restartSceneName: Tre
 --- !u!1 &365683150
 GameObject:
   m_ObjectHideFlags: 0

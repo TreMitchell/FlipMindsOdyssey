@@ -407,6 +407,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: bead8c06cbcb8d44abe93dbe27b9f93d, type: 3}
   gameCompletionUI: {fileID: 0}
   gameCompletionText: {fileID: 0}
+  nextSceneName: Tre
+  restartSceneName: AnimalCrossing
 --- !u!1 &365683150
 GameObject:
   m_ObjectHideFlags: 0
