@@ -680,7 +680,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 193, y: 228}
+  m_AnchoredPosition: {x: 253, y: 288}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &650986667
@@ -935,8 +935,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 456, y: -258}
-  m_SizeDelta: {x: 47.427, y: 18.8415}
+  m_AnchoredPosition: {x: 519.7418, y: -293.37994}
+  m_SizeDelta: {x: 96.1697, y: 42.0816}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1045870152
 MonoBehaviour:
@@ -1178,6 +1178,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 3b8e3cad8b40cd54c9f932e892166479, type: 3}
   gameCompletionUI: {fileID: 0}
   gameCompletionText: {fileID: 0}
+  nextSceneName: Tre
+  restartSceneName: Isael
 --- !u!1 &1452115313
 GameObject:
   m_ObjectHideFlags: 0
@@ -1235,7 +1237,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Quit
+  m_text: "\u2663 Quit Game \u2663"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1244,8 +1246,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280361262
-  m_fontColor: {r: 0.1792453, g: 0.12964281, b: 0.12964281, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

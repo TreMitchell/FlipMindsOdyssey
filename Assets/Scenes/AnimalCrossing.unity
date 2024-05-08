@@ -137,7 +137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1921357865928859955, guid: dca96fbdf451f4d4b9e62c103047499c, type: 3}
       propertyPath: sceneToLoad
-      value: Isael02
+      value: Tre
       objectReference: {fileID: 0}
     - target: {fileID: 1921357865928859955, guid: dca96fbdf451f4d4b9e62c103047499c, type: 3}
       propertyPath: targetScene
@@ -241,7 +241,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93140503}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d0a424c2ee794024fa082851f9941c23, type: 3}
@@ -575,7 +575,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.24, y: 4.44}
+  m_AnchoredPosition: {x: -0.98, y: 4.44}
   m_SizeDelta: {x: 7.086, y: 1.0011}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &370883158

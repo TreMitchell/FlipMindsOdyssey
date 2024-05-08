@@ -137,7 +137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1921357865928859955, guid: dca96fbdf451f4d4b9e62c103047499c, type: 3}
       propertyPath: sceneToLoad
-      value: Level02
+      value: Tre
       objectReference: {fileID: 0}
     - target: {fileID: 1921357865928859955, guid: dca96fbdf451f4d4b9e62c103047499c, type: 3}
       propertyPath: targetScene
@@ -436,6 +436,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 7a0a7c5b3208baf4f9880e963703d372, type: 3}
   - {fileID: 21300000, guid: 7e730e3dc18821b4fb6b605daa1af875, type: 3}
   - {fileID: 21300000, guid: 3b8e3cad8b40cd54c9f932e892166479, type: 3}
+  gameCompletionUI: {fileID: 0}
+  gameCompletionText: {fileID: 0}
 --- !u!1001 &1512692760
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -695,6 +697,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardBack: {fileID: 1066654956}
   controller: {fileID: 1437776445}
+  clickSound: {fileID: 0}
 --- !u!212 &1730037472
 SpriteRenderer:
   m_ObjectHideFlags: 0
