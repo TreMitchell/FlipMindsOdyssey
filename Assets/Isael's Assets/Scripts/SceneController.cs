@@ -15,6 +15,8 @@ public class SceneController : MonoBehaviour
     [SerializeField] TMP_Text scoreLabel;
     [SerializeField] TMP_Text wrongAttemptsLabel;
     [SerializeField] Sprite[] images;
+    [SerializeField] GameObject gameCompletionUI;
+    [SerializeField] TMP_Text gameCompletionText;
 
     private MemoryCard firstRevealed;
     private MemoryCard secondRevealed;
@@ -24,6 +26,33 @@ public class SceneController : MonoBehaviour
     public bool canReveal
     {
         get { return secondRevealed == null; }
+    }
+
+    private void CheckGameCompletion()
+    {
+        MemoryCard[] cards = FindObjectsOfType<MemoryCard>();
+        bool allMatched = true;
+        foreach (MemoryCard card in cards)
+        {
+            if (!card.IsFlipped) // Access isFlipped using the IsFlipped property
+            {
+                allMatched = false;
+                break;
+            }
+        }
+
+        if (allMatched)
+        {
+            GameCompleted(); // Call the function in SceneController to handle game completion
+        }
+    }
+
+    public void GameCompleted()
+    {
+        gameCompletionUI.SetActive(true); // Show the game completion UI
+        gameCompletionText.text = "You passed this Level!"; // Set the completion message
+        gameCompletionText.color = Color.white; // Set text color to white
+        gameCompletionText.alignment = TextAlignmentOptions.Center; // Center-align the text
     }
 
 
