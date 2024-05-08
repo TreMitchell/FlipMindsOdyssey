@@ -2536,6 +2536,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6237547197524871134, guid: 86d5d2f64635414489963a80ddd4563d, type: 3}
+      propertyPath: isCountdown
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8452869299717439749, guid: 86d5d2f64635414489963a80ddd4563d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
