@@ -2538,11 +2538,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1214264541643418804, guid: 86d5d2f64635414489963a80ddd4563d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 569
+      value: 849
       objectReference: {fileID: 0}
     - target: {fileID: 1214264541643418804, guid: 86d5d2f64635414489963a80ddd4563d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -300
+      value: -484
       objectReference: {fileID: 0}
     - target: {fileID: 6237547197524871134, guid: 86d5d2f64635414489963a80ddd4563d, type: 3}
       propertyPath: isCountdown
@@ -2550,11 +2550,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7984049687745921926, guid: 86d5d2f64635414489963a80ddd4563d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 276
+      value: 407
       objectReference: {fileID: 0}
     - target: {fileID: 7984049687745921926, guid: 86d5d2f64635414489963a80ddd4563d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 439
+      value: 512
       objectReference: {fileID: 0}
     - target: {fileID: 8452869299717439749, guid: 86d5d2f64635414489963a80ddd4563d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
