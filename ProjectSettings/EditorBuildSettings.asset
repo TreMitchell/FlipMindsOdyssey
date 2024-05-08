@@ -9,10 +9,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Isael.unity
     guid: 55bb539be79afbf4db483752450d9ad9
   - enabled: 1
-    path: Assets/Scenes/AnimalCrossing.unity
+    path: Assets/Scenes/Tre.unity
     guid: 31881d29c35b8474b897c3bc5e8409b7
   - enabled: 1
-    path: Assets/Scenes/Tre.unity
+    path: Assets/Scenes/IsaelHard.unity
     guid: 92a923497c5fb574cb73c3d1e6ea200c
   - enabled: 1
     path: Assets/Scenes/Mathew.unity
@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Isael02.unity
     guid: 84a1550d839e862449673e9cc40636f3
+  - enabled: 1
+    path: Assets/Scenes/AnimalCrossing.unity
+    guid: e489071243f34654b96238cd59392106
   m_configObjects: {}

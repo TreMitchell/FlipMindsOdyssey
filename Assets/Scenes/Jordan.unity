@@ -137,7 +137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1921357865928859955, guid: dca96fbdf451f4d4b9e62c103047499c, type: 3}
       propertyPath: sceneToLoad
-      value: Isael02
+      value: Mathew
       objectReference: {fileID: 0}
     - target: {fileID: 1921357865928859955, guid: dca96fbdf451f4d4b9e62c103047499c, type: 3}
       propertyPath: targetScene
@@ -244,7 +244,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ce9aa07170b90894ba29581d35c2cb2b, type: 3}
+  m_audioClip: {fileID: 8300000, guid: aed48fb94ac26f54cbeb1803bd106a00, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -407,7 +407,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 3c6f867f067861e478c4fa40c626df32, type: 3}
   gameCompletionUI: {fileID: 0}
   gameCompletionText: {fileID: 0}
-  nextSceneName: 
+  nextSceneName: Mathew
   restartSceneName: Jordan
 --- !u!1 &365683150
 GameObject:
@@ -871,7 +871,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 29faeebb38e1e99438be6fb3b5fb38c3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 84743002c022be5449059e50a31f6b96, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -891,8 +891,8 @@ Transform:
   m_GameObject: {fileID: 715780482}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0105, y: -0.0134, z: 0}
-  m_LocalScale: {x: 1.671424, y: 1.3891909, z: 1}
+  m_LocalPosition: {x: -0.0138, y: 0.0109, z: 0}
+  m_LocalScale: {x: 2.4400291, y: 2.4335303, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1087,7 +1087,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1921357865928859955, guid: dca96fbdf451f4d4b9e62c103047499c, type: 3}
       propertyPath: sceneToLoad
-      value: Mathew
+      value: Tre
       objectReference: {fileID: 0}
     - target: {fileID: 1921357865928859955, guid: dca96fbdf451f4d4b9e62c103047499c, type: 3}
       propertyPath: targetScene

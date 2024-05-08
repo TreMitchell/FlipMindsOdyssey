@@ -137,7 +137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1921357865928859955, guid: dca96fbdf451f4d4b9e62c103047499c, type: 3}
       propertyPath: sceneToLoad
-      value: Mathew
+      value: Jordan
       objectReference: {fileID: 0}
     - target: {fileID: 1921357865928859955, guid: dca96fbdf451f4d4b9e62c103047499c, type: 3}
       propertyPath: targetScene
@@ -393,21 +393,21 @@ MonoBehaviour:
   scoreLabel: {fileID: 2028089054}
   wrongAttemptsLabel: {fileID: 365683151}
   images:
-  - {fileID: 21300000, guid: cedc3ba2d0371154bbd9557fd2487f29, type: 3}
   - {fileID: 21300000, guid: f729acfc91ead2e41b53bf03c809659a, type: 3}
   - {fileID: 21300000, guid: c927b7dd72c9acf4fb4c514257211405, type: 3}
   - {fileID: 21300000, guid: 1ba0f64780278e841b81fdca00cf13da, type: 3}
-  - {fileID: 21300000, guid: df9f101bdc6b1914aaa16164323473f0, type: 3}
+  - {fileID: 21300000, guid: cedc3ba2d0371154bbd9557fd2487f29, type: 3}
   - {fileID: 21300000, guid: 7f91d5ac864e76b48b03bfe9c8f0fb44, type: 3}
-  - {fileID: 21300000, guid: cedc3ba2d0371154bbd9557fd2487f29, type: 3}
-  - {fileID: 21300000, guid: cedc3ba2d0371154bbd9557fd2487f29, type: 3}
-  - {fileID: 21300000, guid: cedc3ba2d0371154bbd9557fd2487f29, type: 3}
-  - {fileID: 21300000, guid: cedc3ba2d0371154bbd9557fd2487f29, type: 3}
-  - {fileID: 21300000, guid: cedc3ba2d0371154bbd9557fd2487f29, type: 3}
-  - {fileID: 21300000, guid: cedc3ba2d0371154bbd9557fd2487f29, type: 3}
+  - {fileID: 21300000, guid: 7f91d5ac864e76b48b03bfe9c8f0fb44, type: 3}
+  - {fileID: 21300000, guid: a491e1971af41e4429211aa324ceea6c, type: 3}
+  - {fileID: 21300000, guid: db7b91cafeccb5f4aa92ea0050374bf1, type: 3}
+  - {fileID: 21300000, guid: 598e558e52ed0944598b235621abe08f, type: 3}
+  - {fileID: 21300000, guid: eaa96758edce1394ebda25d438678c1f, type: 3}
+  - {fileID: 21300000, guid: 7243b0903708f8b4683382b278707b07, type: 3}
+  - {fileID: 21300000, guid: bead8c06cbcb8d44abe93dbe27b9f93d, type: 3}
   gameCompletionUI: {fileID: 0}
   gameCompletionText: {fileID: 0}
-  nextSceneName: Mathew
+  nextSceneName: Jordan
   restartSceneName: Tre
 --- !u!1 &365683150
 GameObject:
@@ -577,7 +577,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.9, y: 4.44}
+  m_AnchoredPosition: {x: -0.98, y: 4.44}
   m_SizeDelta: {x: 7.086, y: 1.0011}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &370883158
@@ -679,7 +679,7 @@ GameObject:
   - component: {fileID: 675420367}
   - component: {fileID: 675420366}
   m_Layer: 0
-  m_Name: CardFront
+  m_Name: PlayingCardMayor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -732,7 +732,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.046905994, y: 0.065668344}
+  m_Offset: {x: -0.0075101852, y: -0.003839016}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -743,7 +743,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.281436, y: 1.6942086}
+  m_Size: {x: 1.478591, y: 1.9923999}
   m_EdgeRadius: 0
 --- !u!212 &675420368
 SpriteRenderer:
@@ -786,9 +786,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: cedc3ba2d0371154bbd9557fd2487f29, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f729acfc91ead2e41b53bf03c809659a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 6, y: 9}
@@ -806,7 +806,7 @@ Transform:
   m_GameObject: {fileID: 675420365}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.55, y: 1.49, z: -0.1}
+  m_LocalPosition: {x: -7.5242, y: 1.361, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -824,7 +824,7 @@ GameObject:
   - component: {fileID: 715780484}
   - component: {fileID: 715780483}
   m_Layer: 0
-  m_Name: Background
+  m_Name: Animal Crossing Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -891,8 +891,8 @@ Transform:
   m_GameObject: {fileID: 715780482}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0212, y: -0.3289, z: 0}
-  m_LocalScale: {x: 1.7342359, y: 1.3724943, z: 1}
+  m_LocalPosition: {x: -0.0188, y: -0.2923, z: 0}
+  m_LocalScale: {x: 1.7355599, y: 1.3820282, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1000,7 +1000,7 @@ GameObject:
   - component: {fileID: 1560488936}
   - component: {fileID: 1560488935}
   m_Layer: 0
-  m_Name: CardBack
+  m_Name: AnimalCrossingBack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1067,7 +1067,7 @@ Transform:
   m_GameObject: {fileID: 1560488934}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.02, y: 0.027, z: -0.1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

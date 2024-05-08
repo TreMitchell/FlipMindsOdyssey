@@ -137,7 +137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1921357865928859955, guid: dca96fbdf451f4d4b9e62c103047499c, type: 3}
       propertyPath: sceneToLoad
-      value: Jordan
+      value: IsaelHard
       objectReference: {fileID: 0}
     - target: {fileID: 1921357865928859955, guid: dca96fbdf451f4d4b9e62c103047499c, type: 3}
       propertyPath: targetScene
@@ -407,7 +407,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 152a1c9bfe7a4d64ab6f84d0855bc9c7, type: 3}
   gameCompletionUI: {fileID: 0}
   gameCompletionText: {fileID: 0}
-  nextSceneName: Jordan
+  nextSceneName: IsaelHard
   restartSceneName: Mathew
 --- !u!1 &365683150
 GameObject:
@@ -1087,7 +1087,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1921357865928859955, guid: dca96fbdf451f4d4b9e62c103047499c, type: 3}
       propertyPath: sceneToLoad
-      value: Tre
+      value: Jordan
       objectReference: {fileID: 0}
     - target: {fileID: 1921357865928859955, guid: dca96fbdf451f4d4b9e62c103047499c, type: 3}
       propertyPath: targetScene
