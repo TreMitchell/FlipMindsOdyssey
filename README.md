@@ -4,7 +4,7 @@ CSE4410 Game Programming Project
 # Group Members:
 - Jordan Batchelor
 - Isael Lazcano
-- Mathhew Mai
+- Matthew Mai
 - Tré Mitchell
 - Pamela Rodriguez Cornejo
  
