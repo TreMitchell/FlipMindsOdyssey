@@ -699,7 +699,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardBack: {fileID: 1560488934}
   controller: {fileID: 137947699}
-  clickSound: {fileID: 8300000, guid: bf96ff4e04c5f63458bb50d729723419, type: 3}
+  clickSound: {fileID: 8300000, guid: f15690e24262cd443ad8a3b545ba43da, type: 3}
 --- !u!61 &675420367
 BoxCollider2D:
   m_ObjectHideFlags: 0
